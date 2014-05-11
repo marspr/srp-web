@@ -1,0 +1,22 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<title>SRP Client</title>
+			<script type="text/javascript" src="client.js"></script>
+			<script type="text/javascript" src="../shared/lib/hashes.min.js"></script>
+			<script type="text/javascript" src="lib/jsbn.js"></script>
+			<script type="text/javascript" src="lib/jsbn2.js"></script>
+			<script type="text/javascript" src="lib/scrypt.js"></script>
+			<script type="text/javascript" src="../shared/lib/srp.js"></script>
+	</head>
+	<body>
+		<div>
+			<label>Username</label>
+			<input type="text" id="user"/>
+			<label>Password</label>
+			<input type="password" id="pass"/>
+			<button id="login">Authenticate</button>
+		</div>
+		<div id="messages"></div>
+	</body>
+</html>

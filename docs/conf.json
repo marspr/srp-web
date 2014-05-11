@@ -1,0 +1,14 @@
+{
+	"opts": {
+		"destination": "./docs/html",
+		"encoding": "utf8"
+	},
+	"source": {
+		"include": [
+			"./shared/lib/srp.js",
+			"./client/client.js",
+			"./server/server.js",
+			"./README.md"
+		]
+	}
+}
